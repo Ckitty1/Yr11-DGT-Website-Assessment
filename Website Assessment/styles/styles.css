@@ -30,7 +30,7 @@ body {
         ;
 }
 
-/*Styling the page display grids*/
+/*Styling the section page display grids*/
 .page-wrapper {
     display: grid;
     grid-template-columns: auto auto;
@@ -43,11 +43,11 @@ body {
         "footer footer"
 }
 
+/*Styling for the navigation bar*/
 .nav-bar {
     grid-area: nav-bar;
     display: flex;
     background-color: #edeade;
-    /*height: 70px;*/
     overflow: hidden;
     margin: 0;
 }
@@ -72,7 +72,7 @@ body {
     align-self: center;
 }
 
-/*Styling of the nav bar*/
+/*Styling of the area of the nav bar with the buttons*/
 
 .nav {
     width: 50%;
@@ -100,7 +100,7 @@ body {
     background-color: #98968e;
 }
 
-/*Styling of the main index page header*/
+/*Styling of the main index page header (text and image)*/
 
 .header {
     grid-area: header;
@@ -114,6 +114,7 @@ body {
     text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+/*Classes created just to make the text a certain colour*/
 .dark-grey {
     color: #373737;
 }
@@ -122,6 +123,11 @@ body {
     color: white;
 }
 
+.c2c0b6 {
+    color: #c2c0b6;
+}
+
+/*Styling for the main image at the top of each section page*/
 .page-img {
     grid-area: page-img;
     margin: 0;
@@ -130,6 +136,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Styling for the sub-headers below the top images of each page*/
 .sub-header {
     grid-area: sub-header;
     margin: 0;
@@ -138,6 +145,7 @@ body {
     color: #373737;
 }
 
+/*Styling for the main content of the section pages*/
 .main {
     grid-area: main;
     text-align: center;
@@ -146,6 +154,7 @@ body {
     color: #373737;
 }
 
+/*All the styling for the main content on the index page*/
 .image1 { grid-area: image1; text-align: left; padding: 5%;}
 .text1 { grid-area: text1; text-align: right; padding: 5%;}
 .text1 a { color: #373737; font-size: 25px; }
@@ -166,6 +175,7 @@ body {
 .text5 { grid-area: text5; text-align: right; padding: 5%;}
 .text5 a { color: #373737; font-size: 25px; }
 
+/*Styling for the footer box area*/
 .footer {
     grid-area: footer;
     background-color: #c2c0b6;
@@ -174,10 +184,7 @@ body {
     display: flex;
 }
 
-.c2c0b6 {
-    color: #c2c0b6;
-}
-
+/*Styles for the left side of the footer*/
 .footer1 {
     padding: 3%;
     width: 50%;
@@ -189,6 +196,7 @@ body {
     color: black;
 }
 
+/*Styles for the right side of the footer*/
 .footer2 {
     padding: 2%;
     width: 50%;
